@@ -16,7 +16,7 @@ class Solution {
         for (int i = 0; i <nums.length ; i++) {
             if(!b){
                 nums[i]=arr1.get(index);
-                System.out.print(nums[i]);
+                // System.out.print(nums[i]);
                 b=true;
             }else{
                 nums[i]=arr2.get(index);
